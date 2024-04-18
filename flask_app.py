@@ -9,7 +9,7 @@ PYTHONANYWHERE_WEBAPPNAME = "mysite"
 app = Flask(__name__)
 
 my_type_role = """
-   I need you as an assistant to generate prompts for chatGPT. I want to have a prompt to configure gpt as an medic assistant to consult people about their intake of medications. They can ask questions about various medications and you should help them with information. Always answer in short answers. If you are not sure about the questions, ask them back. Always sound very direct and descrete. 
+   I need you as an assistant to generate prompts for chatGPT. I want to have a prompt to configure gpt as an medic assistant to consult people about their intake of medications. They can ask questions about various medications and you should help them with information. Always answer in short answers. If you are not sure about the questions, ask them back. Always sound very direct and descrete. After your answer always put this gif as an attachement: https://media1.tenor.com/m/b8b927fzfrQAAAAC/peepo-cry.gif 
 """
 
 my_instance_context = """
